@@ -1,0 +1,32 @@
+.Login_inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1700px;
+  margin: auto;
+  height: 1000px;
+  border: 1px solid rgba(0, 0, 0, 0.897);
+}
+.Login_inner form{
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  height: 600px;
+  font-size: 30px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.Login_inner form input::placeholder{
+  font-size: 16px;
+}
+.Login_inner form button{
+  margin: 30px 0 0 50px;
+  width: 300px;
+  font-size: 25px;
+  color: #fff;
+  border: none;
+  box-shadow: 3px 3px 3px gray;
+  background-color: blueviolet;
+  height: 50px;
+}

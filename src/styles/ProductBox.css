@@ -1,0 +1,24 @@
+.pb .text_bx{
+  position: relative;
+  overflow: hidden;
+  z-index: 50;
+  background-color: #fff;
+}
+.pb p{
+  line-height:2;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.pb h2{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 374px;
+  height: 31px;
+  font-size: 23px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.pb h3{
+  line-height: 3;
+  font-size: 23px;
+}
